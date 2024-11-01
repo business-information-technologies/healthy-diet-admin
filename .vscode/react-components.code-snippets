@@ -1,0 +1,17 @@
+{
+    "React Component" : {
+        "scope": "typescriptreact",
+		"prefix": "ts",
+        "body": [
+            "type Props = {}",
+            "",
+            "const ${1} = (props: Props) => {",
+            "\treturn(",
+            "\t\t${2}",
+            "\t)",
+            "}",
+            "",
+            "export default ${1}"
+        ]
+    }
+}
